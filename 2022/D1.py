@@ -14,12 +14,12 @@ def read_data(filename):
         
     return input_list
 
-cal_list = read_data("D1.txt")
+cal_lst = read_data("D1.txt")
 
 cal_sum = 0
 sum_lst = []
 
-for val in cal_list:
+for val in cal_lst:
     if val == '':
         sum_lst.append(cal_sum)
         cal_sum = 0
